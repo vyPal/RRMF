@@ -1,0 +1,13 @@
+[package]
+name = "cargo-rrmf"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+gimli = "0.34.0"
+indexmap = "2.14.2"
+object = "0.40.0"
+rrmf-meta = { path = "../rrmf-meta" }
+rustc-demangle = "0.1.28"
+serde_json = "1.0.151"
