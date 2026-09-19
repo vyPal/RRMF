@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["cargo-rrmf", "rrmf-meta"]
+members = ["cargo-rrmf", "rrmf-launcher", "rrmf-meta"]
 
 [workspace.package]
 version = "0.1.0"

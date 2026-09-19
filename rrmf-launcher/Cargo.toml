@@ -1,0 +1,12 @@
+[package]
+name = "rrmf-launcher"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+rrmf-meta = { path = "../rrmf-meta" }
+libc = "0.2.189"
+object = "0.40.0"
+nix = { version = "0.31.3", features = ["ptrace", "process", "signal"] }
+rhai = { version = "1.26.1", features = ["sync"] }
